@@ -77,27 +77,27 @@ const ParallaxImage = ({ src, alt, className, id }: { src: string, alt: string, 
 export default function HomePage() {
   // Canonical Data Sources (Preserved from original)
   const heroCards = [
-    { title: "Premium Chocolates", id: "hero-card-1", rotation: "-2deg" },
-    { title: "Signature Desserts", id: "hero-card-2", rotation: "1deg" },
-    { title: "Gourmet Collections", id: "hero-card-3", rotation: "-1deg" }
+    { title: "Gulab Jamun", id: "hero-card-1", rotation: "-2deg" },
+    { title: "Barfi Collection", id: "hero-card-2", rotation: "1deg" },
+    { title: "Jalebi & More", id: "hero-card-3", rotation: "-1deg" }
   ];
 
   const features = [
     { 
-      title: "Premium Ingredients", 
-      desc: "We source the finest cocoa, vanilla, and natural flavors from sustainable farms worldwide.",
+      title: "Pure Ingredients", 
+      desc: "We use the finest milk, ghee, and natural flavors sourced from trusted suppliers.",
       icon: Star,
       id: "feat-1"
     },
     { 
-      title: "Artisan Craftsmanship", 
-      desc: "Each piece is handcrafted by our skilled chocolatiers with meticulous attention to detail.",
+      title: "Traditional Methods", 
+      desc: "Each sweet is handmade using time-honored techniques passed down through generations.",
       icon: Award,
       id: "feat-2"
     },
     { 
-      title: "Elegant Presentation", 
-      desc: "Beautiful packaging that makes every purchase a gift-worthy experience.",
+      title: "Authentic Flavors", 
+      desc: "Experience the true taste of India with our authentic sweet recipes and presentations.",
       icon: Gift,
       id: "feat-3"
     }
@@ -153,8 +153,8 @@ export default function HomePage() {
           {/* Main Headline */}
           <AnimatedElement className="mb-16 md:mb-24 text-center relative z-20">
             <h1 className="font-heading text-[5rem] md:text-[8rem] lg:text-[11rem] leading-[0.85] tracking-tight text-white mix-blend-difference">
-              Artisan <br />
-              <span className="ml-[1em] md:ml-[2em] block text-white/90">Confections</span>
+              Al Kata <br />
+              <span className="ml-[1em] md:ml-[2em] block text-white/90">Sweet</span>
             </h1>
           </AnimatedElement>
 
@@ -171,7 +171,7 @@ export default function HomePage() {
                     <div className="aspect-[3/4] relative overflow-hidden">
                       <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500 z-10" />
                       <Image
-                        src={`https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=${card.id}`}
+                        src={'https://static.wixstatic.com/media/b1c664_432c0450ce3741d0a87ee8124c036870~mv2.png?originWidth=576&originHeight=768'}
                         alt={card.title}
                         width={600}
                         className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
@@ -211,11 +211,11 @@ export default function HomePage() {
                 <AnimatedElement>
                   <div className="w-12 h-1 bg-white mb-8" />
                   <h2 className="font-heading text-5xl md:text-7xl mb-8 leading-tight">
-                    Crafted with <br />
-                    <span className="italic text-white/50">Passion</span>
+                    Authentic Indian <br />
+                    <span className="italic text-white/50">Sweets</span>
                   </h2>
                   <p className="font-paragraph text-xl md:text-2xl leading-relaxed text-zinc-400 mb-12 max-w-md">
-                    Every confection we create is a testament to our dedication to excellence. We blend traditional techniques with innovative flavors to create moments of pure joy.
+                    Every sweet we create honors traditional Indian recipes passed down through generations. Using only the finest milk, ghee, and natural ingredients, we craft authentic flavors that transport you to the heart of India.
                   </p>
                   <Link 
                     to="/about" 
@@ -232,23 +232,23 @@ export default function HomePage() {
               <AnimatedElement className="w-full">
                 <div className="relative aspect-[16/9] rounded-sm overflow-hidden">
                   <ParallaxImage 
-                    src="https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=about-image" 
+                    src="https://static.wixstatic.com/media/b1c664_5204bc27b5764a9ab64726fd135e4587~mv2.png?originWidth=1152&originHeight=640" 
                     alt="Chocolatier at work" 
                     id="about-1"
                   />
                   <div className="absolute bottom-8 left-8 bg-black/80 backdrop-blur-md px-6 py-4 border border-white/10">
-                    <p className="font-heading text-xl">Master Chocolatiers</p>
+                    <p className="font-heading text-xl">Master Sweet Makers</p>
                   </div>
                 </div>
                 <p className="mt-6 font-paragraph text-zinc-500 text-lg max-w-xl">
-                  Our master chocolatiers bring decades of experience to every piece, ensuring that each bite delivers an unforgettable experience.
+                  Our master sweet makers bring decades of experience to every creation, ensuring that each bite delivers the true essence of Indian confectionery excellence.
                 </p>
               </AnimatedElement>
 
               <AnimatedElement className="w-full pl-0 lg:pl-24">
                 <div className="relative aspect-[4/5] md:aspect-[16/9] rounded-sm overflow-hidden">
                   <ParallaxImage 
-                    src="https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=process-image" 
+                    src="https://static.wixstatic.com/media/b1c664_77f9a800f5f44668b87da5c35d05c5e8~mv2.png?originWidth=1152&originHeight=640" 
                     alt="Detailed process of chocolate making" 
                     id="about-2"
                   />
@@ -267,7 +267,7 @@ export default function HomePage() {
       <section className="relative w-full h-[80vh] overflow-hidden flex items-center justify-center">
         <div className="absolute inset-0">
           <ParallaxImage 
-            src="https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=break-1" 
+            src="https://static.wixstatic.com/media/b1c664_445529d9124644fda78a764391826b0f~mv2.png?originWidth=1280&originHeight=704" 
             alt="Artistic chocolate splash" 
             className="w-full h-full"
             id="break-bg"
@@ -277,10 +277,10 @@ export default function HomePage() {
         
         <AnimatedElement className="relative z-10 text-center max-w-4xl px-6">
           <h2 className="font-heading text-6xl md:text-8xl text-white mb-6 mix-blend-overlay">
-            "Taste is the only truth."
+            "Taste the Tradition."
           </h2>
           <p className="font-paragraph text-xl text-white/80 italic">
-            — The Artisan Philosophy
+            — Al Kata Sweet Philosophy
           </p>
         </AnimatedElement>
       </section>
@@ -289,7 +289,7 @@ export default function HomePage() {
       <section className="w-full py-32 bg-black px-6">
         <div className="max-w-[120rem] mx-auto">
           <AnimatedElement className="mb-24 text-center">
-            <h2 className="font-heading text-5xl md:text-6xl mb-6">The Sweet Elegance Experience</h2>
+            <h2 className="font-heading text-5xl md:text-6xl mb-6">The Al Kata Sweet Experience</h2>
             <div className="w-px h-12 bg-white/30 mx-auto" />
           </AnimatedElement>
 
@@ -337,7 +337,7 @@ export default function HomePage() {
                 <div className="aspect-[3/4] relative overflow-hidden rounded-lg mb-6">
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors z-10" />
                   <Image
-                    src={`https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=feat-${item}`}
+                    src={'https://static.wixstatic.com/media/b1c664_54c54491496f40cb8561263534b96e98~mv2.png?originWidth=576&originHeight=768'}
                     alt={`Collection item ${item}`}
                     width={600}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -357,9 +357,9 @@ export default function HomePage() {
       {/* --- MINIMALIST CTA --- */}
       <section className="w-full py-40 bg-white text-black flex flex-col items-center justify-center text-center px-6">
         <AnimatedElement>
-          <h2 className="font-heading text-6xl md:text-8xl mb-8">Indulge in Excellence</h2>
+          <h2 className="font-heading text-6xl md:text-8xl mb-8">Taste Authentic India</h2>
           <p className="font-paragraph text-xl md:text-2xl max-w-2xl mx-auto mb-12 text-zinc-600">
-            Discover our curated collection of handcrafted confections, each one a masterpiece of flavor and artistry.
+            Discover our collection of authentic Indian sweets, each one crafted with traditional recipes and the finest ingredients.
           </p>
           <Link
             to="/store"

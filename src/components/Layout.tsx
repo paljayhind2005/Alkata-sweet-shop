@@ -22,7 +22,7 @@ export default function Layout() {
         <div className="max-w-[120rem] mx-auto px-6 py-6">
           <div className="flex justify-between items-center">
             <Link to="/" className="font-heading text-3xl md:text-4xl italic">
-              Sweet Elegance
+              Al Kata Sweet
             </Link>
             
             <nav className="flex items-center gap-8">
@@ -97,9 +97,9 @@ export default function Layout() {
         <div className="max-w-[120rem] mx-auto px-6 py-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
-              <h3 className="font-heading text-2xl italic mb-4">Sweet Elegance</h3>
+              <h3 className="font-heading text-2xl italic mb-4">Al Kata Sweet</h3>
               <p className="font-paragraph text-base opacity-80">
-                Crafting exquisite confections with passion and precision since 2024.
+                Authentic Indian sweets crafted with traditional recipes and finest ingredients since 2024.
               </p>
             </div>
             
@@ -142,7 +142,7 @@ export default function Layout() {
           
           <div className="mt-12 pt-8 border-t border-primary-foreground/10 text-center">
             <p className="font-paragraph text-sm opacity-60">
-              © {new Date().getFullYear()} Sweet Elegance. All rights reserved.
+              © {new Date().getFullYear()} Al Kata Sweet. All rights reserved.
             </p>
           </div>
         </div>
