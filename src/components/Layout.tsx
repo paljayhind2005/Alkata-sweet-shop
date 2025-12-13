@@ -16,6 +16,8 @@ export default function Layout() {
     }
   };
 
+  const isAdmin = member?.profile?.title === 'admin' || member?.loginEmail === 'admin@example.com';
+
   return (
     <div className="min-h-screen bg-primary text-primary-foreground">
       <header className="border-b border-primary-foreground/10">
@@ -50,6 +52,15 @@ export default function Layout() {
               >
                 Contact
               </a>
+              
+              {isAuthenticated && isAdmin && (
+                <Link 
+                  to="/admin" 
+                  className="font-paragraph text-base hover:opacity-70 transition-opacity"
+                >
+                  Admin
+                </Link>
+              )}
               
               <div className="flex items-center gap-4 ml-4 border-l border-primary-foreground/20 pl-4">
                 {isLoading ? (

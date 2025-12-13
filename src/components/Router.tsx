@@ -11,6 +11,7 @@ import { MemberProtectedRoute } from '@/components/ui/member-protected-route';
 import Layout from '@/components/Layout';
 import HomePage from '@/components/pages/HomePage';
 import ProfilePage from '@/components/pages/ProfilePage';
+import AdminPage from '@/components/pages/AdminPage';
 
 // Main layout wrapper with WixServicesProvider
 function MainLayout() {
@@ -90,6 +91,14 @@ const router = createBrowserRouter([
         element: (
           <MemberProtectedRoute messageToSignIn="Sign in to view your profile">
             <ProfilePage />
+          </MemberProtectedRoute>
+        ),
+      },
+      {
+        path: "admin",
+        element: (
+          <MemberProtectedRoute messageToSignIn="Sign in to access admin panel">
+            <AdminPage />
           </MemberProtectedRoute>
         ),
       },

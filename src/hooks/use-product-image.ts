@@ -21,8 +21,8 @@ export function useProductImage(product?: productsV3.V3Product): {
       setFallbackImageUrl(fallback);
 
       // Check if product has media - Wix Stores v3 uses mainMedia or items array
-      const mainMediaUrl = product.media?.mainMedia?.image?.url;
-      const firstItemUrl = product.media?.items?.[0]?.image?.url;
+      const mainMediaUrl = (product.media as any)?.mainMedia?.image?.url;
+      const firstItemUrl = (product.media as any)?.items?.[0]?.image?.url;
       const hasMedia = mainMediaUrl || firstItemUrl;
       
       if (hasMedia) {
