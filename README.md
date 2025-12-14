@@ -40,7 +40,6 @@ Cloudflare Deployment – Optimized for edge deployment
 
 🛠️ Tech Stack
 Category	Technology
-Framework	Astro 5.8.0
 Frontend	React 18.3.0
 Language	TypeScript 5.8.3
 Styling	Tailwind CSS 3.4.14
