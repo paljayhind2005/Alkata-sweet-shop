@@ -124,34 +124,21 @@ A full report will be generated inside the terminal.
 
 📸 Screenshots 
 /screenshots/homepage.png  ![image alt](https://github.com/paljayhind2005/alkata-sweet-shop/blob/d5de65121633171ff77213c0c766d6893b9d2834/Screenshot%202025-12-14%20112836.png) 
-/screenshots/manage-items.png  
-/screenshots/orders.png  
-/screenshots/mobile-responsive.png  
+/screenshots/items.png  ![image alt](https://github.com/paljayhind2005/alkata-sweet-shop/blob/f79fa1d4fc8380db418c7011f10c0a813c73e969/Screenshot%202025-12-14%20112850.png)
+ ![image alt](https://github.com/paljayhind2005/alkata-sweet-shop/blob/f79fa1d4fc8380db418c7011f10c0a813c73e969/Screenshot%202025-12-14%20112906.png)
+ product - image ![image alt](https://github.com/paljayhind2005/alkata-sweet-shop/blob/f79fa1d4fc8380db418c7011f10c0a813c73e969/Screenshot%202025-12-14%20112935.png)
+ services - image ![image alt](https://github.com/paljayhind2005/alkata-sweet-shop/blob/f79fa1d4fc8380db418c7011f10c0a813c73e969/Screenshot%202025-12-14%20112947.png)
+ product buy image - ![image alt](https://github.com/paljayhind2005/alkata-sweet-shop/blob/f79fa1d4fc8380db418c7011f10c0a813c73e969/Screenshot%202025-12-14%20113155.png)
+ Login/signup
+ ![image alt](https://github.com/paljayhind2005/alkata-sweet-shop/blob/f79fa1d4fc8380db418c7011f10c0a813c73e969/Screenshot%202025-12-14%20113255.png)
+ ![image alt](https://github.com/paljayhind2005/alkata-sweet-shop/blob/f79fa1d4fc8380db418c7011f10c0a813c73e969/Screenshot%202025-12-14%20113304.png)
 
-🌐 Deployment
-
-To create a production build:
-
-npm run build
 
 
-Deploy easily to Cloudflare, Vercel, or Netlify.
 
-🤝 Contributing
 
-Fork the repo
 
-Create a new feature branch
-
-Commit changes
-
-Run tests
-
-Open a Pull Request
-
-🔥 My AI Usage (Mandatory Section)
-
-This project was developed with responsible and transparent use of AI tools. Below is the detailed breakdown of how AI assisted my workflow.
+🔥 My AI Usage
 
 ✔ AI Tools Used
 
@@ -165,10 +152,6 @@ Gemini (Google)
 
 Project Ideation & Structure
 
-Used ChatGPT to brainstorm project folder structure and component architecture.
-
-Asked for guidance on selecting tech stack (React + Astro + Tailwind).
-
 Code Assistance
 
 Used GitHub Copilot to auto-complete React components and utility functions.
@@ -177,15 +160,7 @@ Used AI to generate initial versions of repetitive UI elements (buttons, cards, 
 
 Debugging & Optimization
 
-Asked ChatGPT to explain Astro build errors and TypeScript issues.
-
 Used AI suggestions to improve state management with Zustand and validation with Zod.
-
-Documentation
-
-README.md initial draft and refinement written with AI support.
-
-AI helped me rewrite instructions in a more professional format.
 
 Testing Support
 
