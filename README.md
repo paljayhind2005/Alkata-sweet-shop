@@ -122,8 +122,8 @@ npm run test:run
 
 A full report will be generated inside the terminal.
 
-📸 Screenshots (Add your actual screenshots here)
-/screenshots/homepage.png  
+📸 Screenshots 
+/screenshots/homepage.png  ![image alt](https://github.com/paljayhind2005/alkata-sweet-shop/blob/d5de65121633171ff77213c0c766d6893b9d2834/Screenshot%202025-12-14%20112836.png) 
 /screenshots/manage-items.png  
 /screenshots/orders.png  
 /screenshots/mobile-responsive.png  
